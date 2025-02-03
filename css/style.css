@@ -55,6 +55,29 @@
   color: #555252;
 }
 
+.download-desc {
+  background-color: black;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.download-desc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.email-gg {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.email-gg:hover {
+  border-bottom: 1px solid #b9b9b9;
+  color: #b9b9b9;
+}
+
 @media (max-width: 449px) {
   .download-desc button {
     margin: 10px 0;
