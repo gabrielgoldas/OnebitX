@@ -32,6 +32,7 @@
 
 #button {
   padding: 15px 35px;
+  border: 2px solid white;
 }
 
 .footer {
@@ -54,6 +55,11 @@
   color: #555252;
 }
 
+@media (max-width: 449px) {
+  .download-desc button {
+    margin: 10px 0;
+  }
+}
 @media (max-width: 405px) {
   .logo-pc {
     width: 180px;
@@ -93,7 +99,7 @@
 
 .medium-title {
   width: 650px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 750px) {
@@ -114,6 +120,166 @@
   .short-title, .medium-title {
     width: auto;
     font-size: 40px;
+  }
+}
+.container00.container05 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0)), url(../../images/falcon9/01.jpg);
+}
+.container00.container06 {
+  background-image: url(../../images/falcon9/02.jpg);
+}
+.container00.carousel01 {
+  background-image: url(../../images/falcon9/03.jpg);
+}
+.container00.carousel02 {
+  background-image: url(../../images/falcon9/04.jpg);
+}
+.container00.carousel03 {
+  background-image: url(../../images/falcon9/05.jpg);
+}
+.container00.carousel04 {
+  background-image: url(../../images/falcon9/06.jpg);
+}
+.container00.carousel05 {
+  background-image: url(../../images/falcon9/07.jpg);
+}
+.container00.container07 {
+  background-image: url(../../images/falcon9/08.jpg);
+}
+
+.table {
+  background-color: transparent;
+}
+.table th,
+.table td {
+  background-color: transparent !important;
+  color: white;
+}
+
+.title-falcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .title-number {
+  font-size: 98px;
+}
+.numbers .subtitle-number {
+  font-size: 20px;
+}
+
+.falcon9-desc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.container-falcon9-desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overview-position {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carousel-slide img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-text {
+  background-color: black;
+  border-radius: 2.5px;
+}
+
+.download-desc {
+  background-color: black;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.download-desc a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.download-desc a:hover {
+  border-bottom: 1px solid #b9b9b9;
+  color: #b9b9b9;
+}
+.download-desc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .numbers .title-number {
+    font-size: 80px;
+  }
+  .numbers .subtitle-number {
+    font-size: 18px;
+  }
+  .falcon9-desc {
+    width: auto;
+  }
+  .carousel-text {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  .numbers .title-number {
+    font-size: 70px;
+  }
+  .numbers .subtitle-number {
+    font-size: 16px;
+  }
+  .falcon9-desc {
+    font-size: 18px;
+    line-height: auto;
+  }
+  #overview-position {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .title-falcon9 {
+    font-size: 50px;
+  }
+  .falcon9-desc {
+    font-size: 16px;
+    line-height: auto;
+  }
+  .subtitle-falcon {
+    font-size: 16px;
   }
 }
 
