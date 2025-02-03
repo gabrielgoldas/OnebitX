@@ -145,6 +145,12 @@
     font-size: 40px;
   }
 }
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 .container00.container05 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0)), url(../../images/falcon9/01.jpg);
 }
@@ -246,7 +252,7 @@
     width: auto;
   }
   .carousel-text {
-    display: flex !important;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -284,7 +290,9 @@
   }
 }
 .container00.container08 {
-  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(../../images/humanFlight/01.jpg);
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), url(../../images/humanFlight/01.jpg);
+  width: 100%;
+  object-fit: cover;
 }
 .container00.container09 {
   background-image: url(../../images/humanFlight/02.jpg);
@@ -301,6 +309,7 @@
 
 .container01-content {
   height: 90vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

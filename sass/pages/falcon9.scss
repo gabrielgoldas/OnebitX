@@ -1,7 +1,12 @@
+html, body {
+  overflow-x: hidden; // define o comportamento do transbordamento horizontal do conteúdo.
+  margin: 0;
+  padding: 0;
+}
+
 .container00 {
   &.container05 {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(../../images/falcon9/01.jpg);
-    
   }
 
   &.container06 {
@@ -122,7 +127,7 @@
   }
 
   .carousel-text {
-    display: flex !important;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
